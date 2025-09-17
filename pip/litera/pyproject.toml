@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "litera"
+version = "0.1.0"
+description = "Пример локального Python пакета с src структурой"
+authors = [
+    { name="Nikita M.", email="n_mancurov@mail.ru" }
+]
+readme = "README.md"
+license = { text="MIT" }
+requires-python = ">=3.7"
+
+[tool.setuptools.packages.find]
+where = ["src"]

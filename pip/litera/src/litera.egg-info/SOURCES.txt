@@ -1,0 +1,6 @@
+pyproject.toml
+setup.py
+src/litera.egg-info/PKG-INFO
+src/litera.egg-info/SOURCES.txt
+src/litera.egg-info/dependency_links.txt
+src/litera.egg-info/top_level.txt
